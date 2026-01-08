@@ -9,7 +9,8 @@ app = Flask(__name__)
 
 @app.route("/contact/")
 def MaPremiereAPI():
-    return "<h2>Ma page de contact</h2>"
+    return render_template("contact.html")
+
 
 # EXERCICE 3 : Route /tawarano/ (API OpenWeatherMap)
 @app.route('/tawarano/')
