@@ -50,7 +50,7 @@ def extract_minutes(date_string):
 
 @app.route('/commits-data/')
 def commits_data():
-    url = 'https://api.github.com/repos/OpenRSI/5MCSI_Metriques/commits'
+    url = 'https://api.github.com/repos/BouchraRH/5MCSI_Metriques/commits'
 
     
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
